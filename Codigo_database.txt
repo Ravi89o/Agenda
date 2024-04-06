@@ -1,0 +1,8 @@
+drop database agenda;
+create database agenda;
+use agenda;
+create table dados(
+dado_cod integer AUTO_INCREMENT NOT NULL,
+dado_time date NOT NULL,
+dado_moti varchar(50) NOT NULL,
+PRIMARY KEY(dado_cod));
